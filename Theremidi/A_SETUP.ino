@@ -35,16 +35,16 @@ void setup() {
   /////////////////////////////////////////////
   // DISPLAY
   delay(100);  // This delay is needed to let the display to initialize
-  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // Initialize display with the I2C address of 0x3C
+  display.begin(0x3C, true);  // Initialize display with the I2C address of 0x3C
   //display.begin(SSD1306_SWITCHCAPVCC, 0x7A);  // Initialize display with the I2C address of 0x3C
   display.clearDisplay();  // Clear the buffer
-  display.setTextColor(WHITE);  // Set color of the text
+  display.setTextColor(SH110X_WHITE);  // Set color of the text
   display.setRotation(0);  // Set orientation. Goes from 0, 1, 2 or 3
   display.setTextWrap(true);  // By default, long lines of text are set to automatically “wrap” back to the leftmost column.
   // To override this behavior (so text will run off the right side of the display - useful for
   // scrolling marquee effects), use setTextWrap(false). The normal wrapping behavior is restored
   // with setTextWrap(true).
-  display.dim(0);  //Set brightness (0 is maximun and 1 is a little dim)
+  //display.dim(0);  //Set brightness (0 is maximun and 1 is a little dim)
 
   display.setTextSize(display_text_size);
   //  display.setFont(&FreeMonoBold12pt7b);  // Set a custom font
