@@ -29,3 +29,7 @@ Blog: http://www.musiconerd.com
 Facebook: https://www.facebook.com/musiconerdmusiconerd
 
 Instagram: http://www.instagram.com/musiconerd
+
+https://aleksandarhaber.com/noise-reduction-and-calibration-of-distance-sensors-sharp-infrared-sensors/
+
+https://www.makerguides.com/sharp-gp2y0a21yk0f-ir-distance-sensor-arduino-tutorial/
