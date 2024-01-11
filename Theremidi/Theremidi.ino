@@ -63,10 +63,10 @@
 // Oled Display I2C
 #ifdef USING_DISPLAY
 //#include <Adafruit_GFX.h>  // Include core graphics library for the display
-#include <Adafruit_SSD1306.h>  // Include Adafruit_SSD1306 library to drive the display
+#include <Adafruit_SH110X.h>   // Include Adafruit_SSD1306 library to drive the display
 //#include <Fonts/FreeMonoBold12pt7b.h>  // Add a custom font
 //#include <Fonts/FreeMono9pt7b.h>  // Add a custom font
-Adafruit_SSD1306 display(128, 64);  // Create display - size of the display in pixels
+Adafruit_SH1106G display(128, 64);  // Create display - size of the display in pixels
 #endif
 
 //////////////////////
